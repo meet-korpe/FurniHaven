@@ -1,0 +1,236 @@
+/* Header Section */
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #3D2217;
+    z-index: 1000;
+    padding: 10px 20px;
+}
+
+.header img {
+    height: 60px;
+    width: 60px;
+}
+
+nav a {
+    color: #fff !important;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+nav .form-control {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+/* Main Content */
+h1 {
+    color: #3D2217;
+    font-size: 3em;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main img {
+    width: 228px;
+    height: 133px;
+    margin: 0 auto;
+    display: block;
+}
+
+.about-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    line-height: 1.6;
+}
+
+h2, h3 {
+    color: #3D2217;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p, ul {
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* CEO Image */
+.ceo img {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 50%;
+}
+
+/* Footer */
+footer {
+    background-color: #3D2217;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    nav input {
+        margin-right: 400px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 992px) {
+    nav input {
+        margin-right: 200px;
+        width: 150px;
+    }
+
+    main img {
+        width: 200px;
+        height: 120px;
+    }
+
+    .about-section {
+        padding: 30px;
+    }
+
+    .ceo img {
+        width: 250px;
+        height: 250px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav input {
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .about-section {
+        padding: 20px;
+    }
+
+    .ceo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    p, ul {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .header img {
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav input {
+        margin-right: 0;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .ceo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    p, ul {
+        font-size: 0.9rem;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar .dropdown-menu {
+        background-color: #3D2217;
+        color: white;
+    }
+
+    .navbar .dropdown-menu a {
+        color: white !important;
+        text-decoration: none;
+    }
+
+    .navbar .dropdown-menu a:hover {
+        background-color: #512125;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        width: 50px;
+    }
+}

@@ -1,0 +1,242 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #3D2217;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #3D2217;
+    z-index: 1000;
+    padding: 10px 20px;
+}
+
+.header img {
+    height: 60px;
+    width: 60px;
+}
+
+nav a {
+    color: #fff !important;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+nav .form-control {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+/* Welcome Box */
+.box {
+    text-align: center;
+    padding: 30px;
+    background-color: #AA8C74;
+    color: white;
+}
+
+.info {
+    background-color: #edc9af;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+/* Slider Section */
+.offer .slider img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.offer button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.offer button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Best Sellers Section */
+.hero {
+    background-color: #F67C79;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero button {
+    background-color: #512125;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s;
+}
+
+.hero button:hover {
+    background-color: #7c4d4f;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #512125;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product button {
+    background-color: #F67C79;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #512125;
+}
+
+/* Video Section */
+.vid-box {
+    background-color: #060606;
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
+
+.vid-box video {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.vid-box h1 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+/* Offer Section */
+.what {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.can {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.can > div {
+    text-align: center;
+    max-width: 200px;
+    padding: 10px;
+}
+
+.can img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #3D2217;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .vid-box h1 {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+/* Adjust the navbar for screens below 725px */
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar .dropdown-menu {
+        background-color: #3D2217;
+        color: white;
+    }
+
+    .navbar .dropdown-menu a {
+        color: white !important;
+        text-decoration: none;
+    }
+
+    .navbar .dropdown-menu a:hover {
+        background-color: #512125;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+
+.dropdown-menu li a {
+    color: #fff;
+  }
+  

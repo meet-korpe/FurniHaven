@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/res-styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-light py-3">
+        <div class="container d-flex justify-content-center align-items-center flex-wrap">
+            <!-- <img src="Images/Logo2.png" alt="Logo" class="img-fluid" style="max-height: 60px;"> -->
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="Images/Logo2.png" alt="Logo" width="50" height="50">
+                    </a>
+                    <form class="d-flex me-auto mb-2 mb-lg-0">
+                        <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                    </form>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item d-none d-lg-inline">
+                                <a class="nav-link" href="res-index.html">Home</a>
+                            </li>
+                            <li class="nav-item d-none d-lg-inline">
+                                <a class="nav-link" href="res-product.html">Products</a>
+                            </li>
+                            <li class="nav-item d-none d-lg-inline">
+                                <a class="nav-link" href="res-aboutus.html">About Us</a>
+                            </li>
+                            <li class="nav-item d-none d-lg-inline">
+                                <a class="nav-link" href="res-contactus.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item d-none d-lg-inline">
+                                <a class="nav-link" href="res-login.html">Register</a>
+                            </li>
+                            <li class="nav-item d-none d-lg-inline">
+                                <a class="nav-link" href="res-cart.html">Cart</a>
+                            </li>
+                            <li class="nav-item dropdown d-lg-none">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="background-color: #3D2217;">
+                                    <li><a class="dropdown-item" href="res-index.html">Home</a></li>
+                                    <li><a class="dropdown-item" href="res-product.html">Products</a></li>
+                                    <li><a class="dropdown-item" href="res-aboutus.html">About Us</a></li>
+                                    <li><a class="dropdown-item" href="res-contactus.html">Contact Us</a></li>
+                                    <li><a class="dropdown-item" href="res-login.html">Register</a></li>
+                                    <li><a class="dropdown-item" href="res-cart.html">Cart</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+        </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section class="py-5 text-center bg-light">
+        <div class="container">
+            <h1>Welcome to our website</h1>
+            <p>Your destination for premium, stylish, and affordable furniture.</p>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="py-4 bg-secondary text-light text-center">
+        <div class="container">
+            <p>Your go-to online store for stylish, affordable, and high-quality furniture. Explore our wide range of beautifully crafted pieces for every room, with easy shopping, fast delivery, and great customer service.</p>
+        </div>
+    </section>
+
+    <!-- Slider Section -->
+    <section class="my-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/img1.png" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/img2.png" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/img3.png" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Our Best Sellers</h2>
+            <div class="row mt-4 justify-content-center">
+                <!-- Product Card -->
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <img src="Images/sofa.png" class="card-img-top" alt="Cozy Sofa">
+                        <div class="card-body">
+                            <h5 class="card-title">Cozy Sofa</h5>
+                            <p class="card-text">₹11,899</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <img src="Images/sofa.png" class="card-img-top" alt="Cozy Sofa">
+                        <div class="card-body">
+                            <h5 class="card-title">Cozy Sofa</h5>
+                            <p class="card-text">₹11,899</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <img src="Images/sofa.png" class="card-img-top" alt="Cozy Sofa">
+                        <div class="card-body">
+                            <h5 class="card-title">Cozy Sofa</h5>
+                            <p class="card-text">₹11,899</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <img src="Images/sofa.png" class="card-img-top" alt="Cozy Sofa">
+                        <div class="card-body">
+                            <h5 class="card-title">Cozy Sofa</h5>
+                            <p class="card-text">₹11,899</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more product cards here -->
+            </div>
+            <a href="login.html" class="btn btn-dark mt-3">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="py-5 bg-dark text-light text-center">
+        <div class="container">
+            <video class="w-100 rounded" autoplay muted loop>
+                <source src="Images/video.mp4" type="video/mp4">
+            </video>
+            <h2 class="mt-4">When your life keeps changing, why stay stuck to the same furniture?</h2>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5 text-center">
+        <div class="container">
+            <h2>What We Offer</h2>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <img src="Images/can1 (1).png" alt="Fast Delivery" class="img-fluid mb-3">
+                    <h5>Fast Delivery</h5>
+                </div>
+                <div class="col-md-3">
+                    <img src="Images/can1 (4).png" alt="Secure Payments" class="img-fluid mb-3">
+                    <h5>Secure Payments</h5>
+                </div>
+                <div class="col-md-3">
+                    <img src="Images/can1 (3).png" alt="90 Days Return" class="img-fluid mb-3">
+                    <h5>90 Days Return</h5>
+                </div>
+                <div class="col-md-3">
+                    <img src="Images/can1 (2).png" alt="24*7 Customer Care" class="img-fluid mb-3">
+                    <h5>24/7 Customer Care</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 FurniHaven. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2JDz5jqGcAq6bHEtxlWQRdE+oY62/E6HvhpeIjXlfdhwDoJhK3uo0ieVH0f" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* Bootstrap Overrides and General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+.header {
+    background-color: #3D2217;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 50px;
+    width: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Search Input */
+.input {
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Form Styling */
+.form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.input:focus {
+    border-color: #5b5fc7;
+    outline: none;
+}
+
+/* Button Styling */
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3D2217 !important;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #5b3927 !important;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* Footer */
+footer {
+    background-color: #3D2217;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
